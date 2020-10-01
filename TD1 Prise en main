@@ -1,0 +1,73 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyNCsharJgh/lymIjVK0p3l7",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/uvsq22003169/l1-python/blob/master/TD1%20Prise%20en%20main\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "LMqS7c2b7ZIA",
+        "outputId": "de4c6248-c45c-47a4-f243-ed59486864ac",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 119
+        }
+      },
+      "source": [
+        "a = 1 + 1\n",
+        "a = a + 1\n",
+        "print(a)\n",
+        "a = a + 1\n",
+        "print(a)\n",
+        "\n",
+        "b = 2\n",
+        "a = 5\n",
+        "print(a, b)\n",
+        "\n",
+        "a= 2\n",
+        "b= 5\n",
+        "print(a, b)\n",
+        "print(\"a vaut\",a, \"et b vaut\",b)\n",
+        "a = \"hello world\"\n",
+        "print(a)"
+      ],
+      "execution_count": 19,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "3\n",
+            "4\n",
+            "5 2\n",
+            "2 5\n",
+            "a vaut 2 et b vaut 5\n",
+            "hello world\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
